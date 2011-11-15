@@ -55,12 +55,7 @@ border-right: 0px solid #777777;}
 <TR><TD>
 
 
-<FORM METHOD="POST" ACTION="cgi-bin/FormMail.pl">
-<input type=hidden name="recipient" value="post@mestermalerne.no">
-<!--<input type=hidden name="recipient" value="tskilleb@online.no">-->
-<input type=hidden name="sort" value="order:Navn,email,Telefon,Melding">
-<input type=hidden name="redirect" value="http://www.mestermalerne.no/takk.shtml">
-<input type=hidden name="subject" value="Melding fra Nettet">
+<FORM METHOD="POST" ACTION="mailto:post@mestermalerne.no">
 
 <center><table border=0  CELLSPACING=3 CELLPADDING=3><tr><td>
 <font face=verdana size=2 color=#555555><b>Kontakt oss for mer informasjon.</b>
